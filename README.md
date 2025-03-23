@@ -3,9 +3,9 @@ I did data exploration and feature engineering before training Linear Regression
 
 Data Exploration:
 1. Aggregated mean and std of the features: "housing_median_age", "total_rooms", "total_bedrooms", "population", "households", "median_income", "median_house_value" grouped by Ocean Proximity
-2. Aggregated statistical properties (mean,std,min,max) of the above numerical features on the basis of Geagraphic Clusters created using these methods:
-   2a. Geohash codes derived from Latitude, Longitude
-   2b. Applied hierarchical clustering based on Latitude, Longitude
+2. Aggregated statistical properties (mean,std,min,max) of the above numerical features on the basis of Geagraphic Clusters created using these methods: <br>
+   2a. Geohash codes derived from Latitude, Longitude <br>
+   2b. Applied hierarchical clustering based on Latitude, Longitude <br>
 Ultimately, derived another feature called Geographic Clusters based on hierarchical_cluster
 
 Derived Following Insights:
